@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan Your Trip - Eastern Visayas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-brand" href="index.html">Eastern Visayas</a>
+    <nav class="main-navigation" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="plan-trip.html" aria-current="page">Plan Your Trip</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <video class="hero-media" autoplay muted loop playsinline poster="Assets/Images/sohoton-natural-bridge.jpg" aria-hidden="true">
+        <source src="Assets/Videos/trip-banner.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content content-shell">
+        <span class="eyebrow">A field guide for going somewhere</span>
+        <h1>Plan the route. Leave room to wander.</h1>
+        <p class="hero-copy">Three days is only a starting point.</p>
+      </div>
+    </section>
+
+    <div class="page-content">
+      <section class="trip-opening content-shell">
+        <span class="eyebrow">A sample route</span>
+        <h2>Your three-day field plan</h2>
+        <p>Treat this as a framework, not a countdown. Travel time and boat schedules can change, so check local conditions before leaving.</p>
+      </section>
+
+      <section class="trip-itinerary-section content-shell">
+        <div class="table-wrapper">
+          <table class="itinerary-table">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Morning</th>
+                <th scope="col">Afternoon</th>
+                <th scope="col">Evening</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Day 01</th>
+                <td>Arrive in Tacloban City and have breakfast.</td>
+                <td>Visit MacArthur Landing Memorial Park in Palo.</td>
+                <td>Try moron and binagol for dinner.</td>
+              </tr>
+              <tr>
+                <th scope="row">Day 02</th>
+                <td>Cross the San Juanico Bridge to Samar.</td>
+                <td>Take a boat tour of Sohoton Natural Bridge Park in Basey.</td>
+                <td>Rest and share your photos with jealous friends.</td>
+              </tr>
+              <tr>
+                <th scope="row">Day 03</th>
+                <td>Travel to Palompon, Leyte.</td>
+                <td>Island hop to Kalanggaman Island and walk the sandbar.</td>
+                <td>Watch the sunset and plan your next visit.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="trip-form-section content-shell">
+        <div class="trip-form-intro">
+          <span class="eyebrow">Concierge Request</span>
+          <h2>Leave a note for future you.</h2>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label class="form-label" for="full-name">Full Name</label>
+            <input class="form-input" type="text" id="full-name" name="full_name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email-address">Email Address</label>
+            <input class="form-input" type="email" id="email-address" name="email_address" required>
+          </div>
+          <div class="form-group form-group-wide">
+            <label class="form-label" for="questions-notes">Travel Notes</label>
+            <textarea class="form-input form-textarea" id="questions-notes" name="questions_notes"></textarea>
+          </div>
+          <button class="form-button" type="submit">Save My Draft</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="content-shell footer-grid">
+      <div>
+        <a class="site-brand" href="index.html">Eastern Visayas</a>
+        <p>Travel slowly. Look closely. Leave with a better story.</p>
+      </div>
+      <div class="footer-meta">
+        <p>© 2026 Eastern Visayas. All rights reserved.</p>
+        <p>Made with care by Reizzer Keint Guintaason</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
