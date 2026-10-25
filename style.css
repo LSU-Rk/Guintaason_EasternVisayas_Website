@@ -195,4 +195,27 @@ p { margin: 0 0 24px; }
   .contact-form { grid-template-columns: 1fr; }
   .footer-grid { flex-direction: column; align-items: flex-start; }
   .footer-meta { text-align: left; }
+}  
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.nav-list a:focus-visible,
+.site-brand:focus-visible,
+.text-link:focus-visible,
+.button:focus-visible,
+.form-button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 4px;
 }
